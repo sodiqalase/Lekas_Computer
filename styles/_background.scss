@@ -1,0 +1,67 @@
+.hero_bg {
+	background: url("/images/image4.jpg") no-repeat center center / cover;
+	// @media screen and (max-width: 500px) {
+	// 	background-position: center center;
+	// 	background-size: contain;
+	// }
+	// #f2f8fc
+}
+
+.footer_mask {
+	background: url("/images/footer-mask.svg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+
+	background-position: 100% 80%;
+}
+
+.bridging {
+	background: linear-gradient(
+		0deg,
+		rgba(241, 246, 253, 0) 1.63%,
+		#f1f6fd 20.5%,
+		#f1f6fd 58.57%,
+		#ffffff 100%
+	);
+}
+
+.what-we-do {
+	background: linear-gradient(
+		0deg,
+		rgba(241, 246, 253, 0) 1.63%,
+		#f1f6fd 20.5%,
+		#f1f6fd 58.57%,
+		#ffffff 100%
+	);
+}
+
+// .instant_settlement_bg {
+// 	background: url("./../Assets/images/instant-settlement-bg.svg") no-repeat center 200px / contain;
+// 	@media screen and (max-width: 500px) {
+// 		background: url("./../Assets/images/why-background2.svg") no-repeat center 200px / contain;
+// 	}
+// }
+
+// .slick-dots,
+// .slick-thumb {
+// 	li span {
+// 		background: #e8f5ff;
+// 	}
+// 	.slick-active {
+// 		span {
+// 			background: #183b6b;
+// 		}
+// 	}
+// 	// @media screen and (max-width: 500px) {
+// 	// 	margin-bottom: 70px !important;
+// 	// }
+// }
+
+// .easy-slider {
+// 	.slick-dots,
+// 	.slick-thumb {
+// 		@media screen and (max-width: 500px) {
+// 			margin-bottom: 70px !important;
+// 		}
+// 	}
+// }

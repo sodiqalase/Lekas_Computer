@@ -1,0 +1,23 @@
+.global-container {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 20px;
+	@include breakpoint-up(mobiles) {
+		padding: 0 20px;
+	}
+	@include breakpoint-up(tabs) {
+		padding: 0 25px;
+	}
+	@include breakpoint-up(medium) {
+		width: 940px;
+		padding: 0 16px;
+	}
+	@include breakpoint-up(small-laptops) {
+		width: 992px;
+		padding: 0 16px;
+	}
+	@include breakpoint-up(laptops) {
+		width: 1200px;
+		padding: 0 0px;
+	}
+}

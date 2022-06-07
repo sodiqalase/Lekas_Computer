@@ -1,0 +1,46 @@
+html,
+body {
+	box-sizing: border-box;
+	width: 100vw;
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #fff;
+}
+
+.hero-text-gradient {
+	background: linear-gradient(45deg, #e7002c 6.38%, #0831c8 82.07%);
+	// background: -webkit-linear-gradient(90deg, #e7002c 6.38%, #0831c8 82.07%);
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.slick-dots,
+.slick-thumb {
+	li span {
+		background:  #ed5c79;
+	}
+
+	.slick-active {
+		span {
+			background: #EB506E;
+			width: 28px;
+		}
+	}
+	// @media screen and (max-width: 500px) {
+	// 	margin-bottom: 70px !important;
+	// }
+}
+
+// .easy-slider {
+// 	.slick-dots,
+// 	.slick-thumb {
+// 		@media screen and (max-width: 500px) {
+// 			margin-bottom: 70px !important;
+// 		}
+// 	}
+// }

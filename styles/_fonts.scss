@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Proxima-Nova-Regular";
+	src: url("../public/fonts/ProximaNovaRegular.ttf");
+}
+
+@font-face {
+	font-family: "Proxima-Nova-Bold";
+	src: url("../public/fonts/ProximaNovaBold.ttf");
+}
+
+* {
+	font-family: "Proxima-Nova-Regular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Proxima-Nova-Bold", sans-serif !important;
+}
+
+.lk-font-bold {
+	font-family: "Proxima-Nova-Bold", sans-serif !important;
+}
+.lk-font-regular {
+	font-family: "Proxima-Nova-Regular", sans-serif !important;
+}
