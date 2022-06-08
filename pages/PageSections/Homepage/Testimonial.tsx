@@ -49,9 +49,7 @@ const testimonialList = [
 ];
 
 const Testimonial = () => {
-	const [isMobile, setIsMobile] = useState<boolean>(() => {
-		return window?.innerWidth < 550 ? true : false;
-	});
+	const [isMobile, setIsMobile] = useState<boolean>(false);
 	var settings = {
 		dots: true,
 		infinite: true,
