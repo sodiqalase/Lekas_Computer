@@ -81,7 +81,7 @@ const Testimonial = () => {
 		return () => {
 			window.removeEventListener("resize", () => {});
 		};
-	});
+	}, []);
 
 	return (
 		<section id="testimonialSection" className="py-24 bg-[#F5F6FF]">
