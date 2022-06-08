@@ -504,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.left-\[50\%\] {
+  left: 50%;
+}
+
 .z-\[1000\] {
   z-index: 1000;
 }
@@ -738,6 +742,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 1 1 0%;
 }
 
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-180 {
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -749,6 +758,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-2 {
@@ -1068,4 +1081,149 @@ Ensure the default browser behavior of the `hidden` attribute.
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  .medium\:left-\[8\%\] {
+    left: 8%;
+  }
+
+  .medium\:left-\[6\%\] {
+    left: 6%;
+  }
+
+  .medium\:left-\[50\%\] {
+    left: 50%;
+  }
+
+  .medium\:order-2 {
+    order: 2;
+  }
+
+  .medium\:order-1 {
+    order: 1;
+  }
+
+  .medium\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .medium\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .medium\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .medium\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .medium\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .medium\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .medium\:block {
+    display: block;
+  }
+
+  .medium\:flex {
+    display: flex;
+  }
+
+  .medium\:hidden {
+    display: none;
+  }
+
+  .medium\:h-auto {
+    height: auto;
+  }
+
+  .medium\:h-8 {
+    height: 2rem;
+  }
+
+  .medium\:w-full {
+    width: 100%;
+  }
+
+  .medium\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .medium\:w-8 {
+    width: 2rem;
+  }
+
+  .medium\:translate-x-\[-50\%\] {
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .medium\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .medium\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .medium\:flex-col {
+    flex-direction: column;
+  }
+
+  .medium\:justify-center {
+    justify-content: center;
+  }
+
+  .medium\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .medium\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .medium\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .medium\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .medium\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .medium\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .medium\:text-center {
+    text-align: center;
+  }
+
+  .medium\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .medium\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .medium\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }

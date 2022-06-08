@@ -44,12 +44,12 @@ const Navbar = () => {
 		>
 			<div className="global-container h-full flex justify-between items-center">
 				<Link href="/">
-					<a className="inline-block lk-font-bold text-lg text-lk-heading">
-						Lekas Global Computer Repair
+					<a className="inline-block lk-font-bold medium:text-sm text-lg text-lk-heading">
+						Lekas Global Computer Service
 					</a>
 				</Link>
 				<ul className="flex h-full items-center">
-					<li className="mr-8">
+					<li className="mr-8 medium:hidden">
 						<a
 							// href="#"
 							onClick={_handleScroll1}
@@ -58,7 +58,7 @@ const Navbar = () => {
 							Services
 						</a>
 					</li>
-					<li className="mr-8">
+					<li className="mr-8 medium:hidden">
 						<a
 							// href="#"
 							onClick={_handleScroll2}
@@ -67,7 +67,7 @@ const Navbar = () => {
 							About Us
 						</a>
 					</li>
-					<li className="mr-8">
+					<li className="mr-8 medium:hidden">
 						<a
 							// href="#"
 							onClick={_handleScroll3}
@@ -76,10 +76,10 @@ const Navbar = () => {
 							Testimonials
 						</a>
 					</li>
-					<li className="mr-8">
+					<li className="mr-8 medium:mr-0">
 						<a
 							href="https://wa.me/2348030492803"
-							className="inline-block py-2 px-5 border border-gray-500 rounded-2xl cursor-pointer text-black"
+							className="inline-block py-2 px-5 medium:text-sm medium:py-1 medium:px-3 border border-gray-500 rounded-2xl cursor-pointer text-black"
 						>
 							Lets Talk
 						</a>

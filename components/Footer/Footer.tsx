@@ -29,10 +29,10 @@ const Footer = () => {
 		<footer className="bg-[#040844]">
 			<section className="border-t pt-16 border-white">
 				<div className="global-container">
-					<div className="grid grid-cols-4 !gap-10">
+					<div className="grid grid-cols-4 medium:grid-cols-1 !gap-10">
 						<div className="">
 							<p className="text-lk-pink text-xl">
-								Lekas Global Computer Repair
+								Lekas Global Computer Service
 							</p>
 							<p className="mt-3 text-gray-300">
 								Your one-stop shop for all computer repair and sales

@@ -14,11 +14,11 @@ const WhyTrustUs = () => {
 	return (
 		<section className="py-24 bg-[#F7F7FA]">
 			<div className="global-container">
-				<div className="grid grid-cols-2 !gap-5">
+				<div className="grid grid-cols-2 medium:grid-cols-1 !gap-5">
 					<div className="relative">
 						<img
 							src="/images/Trust-image.jpg"
-							className="w-[90%] mx-auto rounded-lg object-cover block mt-3"
+							className="w-[90%] medium:w-full mx-auto rounded-lg object-cover block mt-3"
 							alt=""
 						/>
 					</div>

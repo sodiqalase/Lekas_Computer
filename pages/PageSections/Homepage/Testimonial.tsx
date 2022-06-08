@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Stars from "../../../components/Stars/Stars";
 
@@ -49,23 +49,40 @@ const testimonialList = [
 ];
 
 const Testimonial = () => {
+	const [isMobile, setIsMobile] = useState<boolean>(() => {
+		return window.innerWidth < 550 ? true : false;
+	});
 	var settings = {
 		dots: true,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 3,
+		slidesToShow: isMobile ? 1 : 3,
 		slidesToScroll: 1,
 		customPaging: function () {
 			return <SliderDot />;
 		},
 		dotsClass: "slick-dots slick-thumb",
-		arrows: true,
+		arrows: isMobile ? false : true,
 		autoplay: true,
 		nextArrow: <NextButton />,
 		prevArrow: <PrevButton />,
 		pauseOnHover: false,
 		pauseOnFocus: false,
 	};
+
+	useEffect(() => {
+		window.addEventListener("resize", () => {
+			if (window.innerWidth < 550) {
+				setIsMobile(true);
+			} else {
+				setIsMobile(false);
+			}
+		});
+		return () => {
+			window.removeEventListener("resize", () => {});
+		};
+	});
+
 	return (
 		<section id="testimonialSection" className="py-24 bg-[#F5F6FF]">
 			<div className="global-container">

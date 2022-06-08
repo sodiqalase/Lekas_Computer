@@ -57,8 +57,8 @@ const OurServices = () => {
 	return (
 		<section id="servicesSection" className="bg-white py-24">
 			<div className="global-container">
-				<div className="flex">
-					<div className="w-[40%] mr-3">
+				<div className="flex medium:flex-col">
+					<div className="w-[40%] medium:w-full mr-3">
 						<p className="text-lk-pink mb-5">Our Services</p>
 						<h5 className="text-lk-heading text-[30px] mb-3">
 							We are your No.1 Computer Expert and e-Solution Plug
@@ -70,7 +70,7 @@ const OurServices = () => {
 						</p>
 						<Button text="Let's Talk" href="https://wa.me/2348030492803" />
 					</div>
-					<div className="w-[60%] grid grid-cols-3 ml-5 items-start !gap-6">
+					<div className="w-[60%] medium:w-full medium:mt-12 medium:grid-cols-2 medium:ml-0 grid grid-cols-3 ml-5 items-start !gap-6">
 						{serviceList.map((service, index) => (
 							<div
 								key={`serviceList${index}`}
