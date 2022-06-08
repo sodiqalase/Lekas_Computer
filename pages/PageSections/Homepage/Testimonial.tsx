@@ -50,7 +50,7 @@ const testimonialList = [
 
 const Testimonial = () => {
 	const [isMobile, setIsMobile] = useState<boolean>(() => {
-		return window.innerWidth < 550 ? true : false;
+		return window?.innerWidth < 550 ? true : false;
 	});
 	var settings = {
 		dots: true,
@@ -71,6 +71,7 @@ const Testimonial = () => {
 	};
 
 	useEffect(() => {
+		setIsMobile(window?.innerWidth < 550 ? true : false);
 		window.addEventListener("resize", () => {
 			if (window.innerWidth < 550) {
 				setIsMobile(true);
