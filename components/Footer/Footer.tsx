@@ -31,7 +31,7 @@ const Footer = () => {
 				<div className="global-container">
 					<div className="grid grid-cols-4 medium:grid-cols-1 !gap-10">
 						<div className="">
-							<p className="text-lk-pink text-xl">
+							<p className="text-lk-pink text-lg">
 								Lekas Global Computer Service
 							</p>
 							<p className="mt-3 text-gray-300">
@@ -39,7 +39,7 @@ const Footer = () => {
 							</p>
 						</div>
 						<div>
-							<p className="mb-3 text-xl font-semibold text-lk-pink ">
+							<p className="mb-3 text-lg font-semibold text-lk-pink ">
 								Contact
 							</p>
 							<ul>
@@ -48,7 +48,8 @@ const Footer = () => {
 														`}
 								>
 									<span className="inline-block leading-loose max-w-[247px] font-normal text-gray-300">
-										13a, Oremeji Street, Computer Village, Ikeja lagaos.
+										13A oremeji street, adjacent Polaris bank, computer village,
+										Ikeja, lagos.
 									</span>
 								</li>
 								<li className="mb-3 text-gray-300">+234 803 049 2803</li>
@@ -56,7 +57,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div>
-							<p className="mb-3 text-xl font-semibold text-lk-pink ">Links</p>
+							<p className="mb-3 text-lg font-semibold text-lk-pink ">Links</p>
 							<ul>
 								<li
 									className={`mb-3 cursor-pointer
@@ -83,7 +84,7 @@ const Footer = () => {
 						</div>
 
 						<div>
-							<p className="mb-3 text-xl font-semibold text-lk-pink ">
+							<p className="mb-3 text-lg font-semibold text-lk-pink ">
 								Social Media
 							</p>
 							<ul className="flex items-center">

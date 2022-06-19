@@ -6,45 +6,45 @@ import Stars from "../../../components/Stars/Stars";
 const testimonialList = [
 	{
 		description:
-			"The quality of service rendered by their engineers is top-notch. I was very satisfied with their delivery.",
+			"The quality of service provided by their engineers was top-notch. I was very satisfied with their delivery and Pricing. You can trust them.",
 		name: "Alase Sodiq",
 		rating: 4.9,
-		position: "Frontend Engineer",
+		position: "Software Engineer",
 	},
 	{
 		description:
-			"Their Engineers helped me with procuring a quality laptop and were also very helpful in the process of repair when faulty.",
+			"Their Engineers helped me with procuring a quality laptop and were also very helpful during maintenance and repair when faulty.",
 		name: "Ameerah Yaqub",
-		rating: 4.9,
-		position: "Content Creator",
+		rating: 4.8,
+		position: "Content Creator/ Voice Over Artist",
 	},
 	{
 		description:
-			"Their Engineers helped me with procuring a quality laptop and were also very helpful in the process of repair when faulty.",
-		name: "Ameerah Yaqub",
-		rating: 4.9,
-		position: "Content Creator",
+			"A friend recommended their service to me when i had issues with my laptop and i must say that, i wasn't disappointed. They were exceptional and i highly recommend them.",
+		name: "Alim Ajenifuja",
+		rating: 5.0,
+		position: "UI/UX Designer",
 	},
 	{
 		description:
-			"Their Engineers helped me with procuring a quality laptop and were also very helpful in the process of repair when faulty.",
-		name: "Ameerah Yaqub",
-		rating: 4.9,
-		position: "Content Creator",
+			"Had my laptop fixed by their engineer very professional , very cost effective and all done very quickly. Would not hesitate to recommend this person .",
+		name: "Ariyo Olasukanmi",
+		rating: 5.0,
+		position: "Insurance Agent",
 	},
 	{
 		description:
-			"Their Engineers helped me with procuring a quality laptop and were also very helpful in the process of repair when faulty.",
-		name: "Ameerah Yaqub",
-		rating: 4.9,
-		position: "Content Creator",
+			"Went to their office for software installation and minor fixes on some of the my hardwares. I was satisfied with the service delivery and the price. Super Friendly people.",
+		rating: 4.6,
+		name: "Oluwaseyi Jackson",
+		position: "Student/Data Analyst",
 	},
 	{
 		description:
-			"Their Engineers helped me with procuring a quality laptop and were also very helpful in the process of repair when faulty.",
-		name: "Ameerah Yaqub",
-		rating: 4.9,
-		position: "Content Creator",
+			"I need a laptop for my work and i reached out to them for help. I was glad i did. They were very helpful and quick to respond to my queries. I would highly recommend them.",
+		name: "Tosin Ajibulu",
+		rating: 5.0,
+		position: "Quality Assurance Expert",
 	},
 ];
 
@@ -83,7 +83,10 @@ const Testimonial = () => {
 	}, []);
 
 	return (
-		<section id="testimonialSection" className="py-24 bg-[#F5F6FF]">
+		<section
+			id="testimonialSection"
+			className="py-24 medium:py-16 medium:pb-20 bg-[#F5F6FF]"
+		>
 			<div className="global-container">
 				<p className="text-lk-pink mb-5">Testimonials</p>
 				<h5 className="text-lk-heading max-w-[310px] text-[30px] mb-3">
@@ -99,7 +102,7 @@ const Testimonial = () => {
 								<p className="h-[55px] text-lk-grey">
 									{testimonial.description}
 								</p>
-								<div className="mt-12 flex justify-between">
+								<div className="mt-16 flex justify-between">
 									<div className="flex items-center">
 										<span className="bg-[#e7e9eb] rounded-full w-[53px] h-[53px]"></span>
 										<div className="ml-2">

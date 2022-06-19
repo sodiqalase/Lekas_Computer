@@ -3,7 +3,7 @@ import Button from "../../../components/Button/Button";
 
 const Hero = () => {
 	return (
-		<section className="h-[90vh] medium:h-auto medium:pb-12 flex items-center w-screen bg-white">
+		<section className="h-[90vh] medium:h-auto medium:pb-16 flex items-center w-screen bg-white">
 			<div className="global-container">
 				<div className="grid grid-cols-2 medium:grid-cols-1 medium:pt-20 items-center">
 					<div className="medium:order-2 medium:text-center">

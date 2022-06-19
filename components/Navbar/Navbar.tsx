@@ -44,9 +44,11 @@ const Navbar = () => {
 		>
 			<div className="global-container h-full flex justify-between items-center">
 				<Link href="/">
-					<a className="inline-block lk-font-bold medium:text-sm text-lg text-lk-heading">
-						Lekas Global Computer Service
-					</a>
+					<img
+						src="/images/Lekas-Logo.png"
+						className="w-40 medium:w-32 inline-block"
+						alt=""
+					/>
 				</Link>
 				<ul className="flex h-full items-center">
 					<li className="mr-8 medium:hidden">

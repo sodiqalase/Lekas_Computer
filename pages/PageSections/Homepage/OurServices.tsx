@@ -55,18 +55,19 @@ const serviceList = [
 
 const OurServices = () => {
 	return (
-		<section id="servicesSection" className="bg-white py-24">
+		<section id="servicesSection" className="bg-white py-24 medium:py-16">
 			<div className="global-container">
 				<div className="flex medium:flex-col">
 					<div className="w-[40%] medium:w-full mr-3">
 						<p className="text-lk-pink mb-5">Our Services</p>
 						<h5 className="text-lk-heading text-[30px] mb-3">
-							We are your No.1 Computer Expert and e-Solution Plug
+							What we can do for you.
 						</h5>
 						<p className="text-lk-grey mb-6">
-							We provides comprehensive on-site & off-site repair, maintenance
-							and pick-up services for Computer Desktop, Laptops, Workstation,
-							Printer and Server repairs and maintenance.
+							We offers a wider range of PC and Laptop repair services, covering
+							all the needs of our clients. In addition, Our services are
+							provided in the most amazing prices and the top-notch quality by
+							our experts.
 						</p>
 						<Button text="Let's Talk" href="https://wa.me/2348030492803" />
 					</div>

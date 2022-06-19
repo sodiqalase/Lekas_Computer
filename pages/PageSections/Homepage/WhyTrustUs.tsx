@@ -3,16 +3,18 @@ import React from "react";
 import Button from "../../../components/Button/Button";
 
 const whyList = [
-	"Our Engineers have over 10 years of experience with repair.",
-	"We Provide affordable and reliable services.",
-	"We are know especially for the Use of high quality parts in our repair services.",
-	"We are unmatched in quality and service.",
+	"Our Engineers have over 10 years of experience with repair and sales.",
+	"Our services are customer-friendly, affordable and reliable.",
+	"We are know especially for the use of high quality parts in our repair services.",
+	"We priotize the satisfaction of our custormers.",
+	"We are committed to providing the best service to our customers.",
+
 	"We have an onsite repair facility in Computer Village.",
 ];
 
 const WhyTrustUs = () => {
 	return (
-		<section className="py-24 bg-[#F7F7FA]">
+		<section className="py-24 medium:py-16 bg-[#F7F7FA]">
 			<div className="global-container">
 				<div className="grid grid-cols-2 medium:grid-cols-1 !gap-5">
 					<div className="relative">
