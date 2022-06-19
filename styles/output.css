@@ -1111,6 +1111,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 6rem;
   }
 
+  .medium\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .medium\:flex {
     display: flex;
   }

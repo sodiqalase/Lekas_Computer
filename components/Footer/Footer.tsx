@@ -120,12 +120,12 @@ const Footer = () => {
 					</div>
 				</div>
 			</section>
-			<section className="py-7 mt-20 flex items-center">
+			<section className="py-7 mt-20 medium:mt-16 flex items-center">
 				<div className="global-container">
 					<div className="flex justify-center">
 						<p className="text-white text-lg">
 							&copy; {`${new Date().getFullYear()}`} Lekas Global Computer
-							Repair
+							Service
 						</p>
 					</div>
 				</div>
