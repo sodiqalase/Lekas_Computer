@@ -32,7 +32,7 @@ const Footer = () => {
 					<div className="grid grid-cols-4 medium:grid-cols-1 !gap-10">
 						<div className="">
 							<p className="text-lk-pink text-lg">
-								Lekas Global Computer Service
+								Lekas Global Computer Services
 							</p>
 							<p className="mt-3 text-gray-300">
 								Your one-stop shop for all computer repair and sales
@@ -125,7 +125,7 @@ const Footer = () => {
 					<div className="flex justify-center">
 						<p className="text-white text-lg">
 							&copy; {`${new Date().getFullYear()}`} Lekas Global Computer
-							Service
+							Services
 						</p>
 					</div>
 				</div>
