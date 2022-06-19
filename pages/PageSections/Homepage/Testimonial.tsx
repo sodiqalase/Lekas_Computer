@@ -15,7 +15,7 @@ const testimonialList = [
 		description:
 			"Their Engineers helped me with procuring a quality laptop and were also very helpful during maintenance and repair when faulty.",
 		name: "Ameerah Yaqub",
-		rating: 4.8,
+		rating: 5.0,
 		position: "Content Creator/ Voice Over Artist",
 	},
 	{
@@ -35,8 +35,8 @@ const testimonialList = [
 	{
 		description:
 			"Went to their office for software installation and minor fixes on some of the my hardwares. I was satisfied with the service delivery and the price. Super Friendly people.",
-		rating: 4.6,
-		name: "Oluwaseyi Jackson",
+		rating: 4.9,
+		name: "Seyi Jackson",
 		position: "Student/Data Analyst",
 	},
 	{
