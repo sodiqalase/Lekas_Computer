@@ -13,10 +13,10 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Lekas Global Computer Service</title>
+				<title>Lekas Global Computer Services</title>
 				<meta charSet="utf-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-				<meta name="title" content="Lekas Global Computer Service" />
+				<meta name="title" content="Lekas Global Computer Services" />
 				<meta
 					name="description"
 					content="We provides comprehensive on-site & off-site repair, maintenance and pick-up services for Computer Desktop, Laptops, Workstation, Printer and Server repairs and maintenance."
@@ -33,9 +33,12 @@ const Home: NextPage = () => {
 				/>
 				<meta name="apple-mobile-web-app-capable" content="yes" />
 				<meta property="og:locale" content="en_US" />
-				<meta property="og:title" content="Lekas Global Computer Service" />
+				<meta property="og:title" content="Lekas Global Computer Services" />
 				{/* <meta property='og:url' content='http://www.hsquareweb.com'/> */}
-				<meta property="og:site_name" content="Lekas Global Computer Service" />
+				<meta
+					property="og:site_name"
+					content="Lekas Global Computer Services"
+				/>
 				<meta property="og:type" content="website" />
 				=
 				<link rel="icon" href="/favicon.ico" />
